@@ -1,833 +1,794 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Ruben Palomo</title>
-	<link rel="shortcut icon" type="image/x-icon" href="images/web-icon.png" />
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="" />
-	<meta name="keywords" content="" />
-	<meta name="author" content="" />
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Rubén Palomo | Desarrollo web, software, automatización e IA</title>
+    <meta
+      name="description"
+      content="Desarrollo web y software a medida, automatización de procesos e inteligencia artificial práctica para autónomos, pequeñas empresas y pymes."
+    />
+    <meta name="author" content="Rubén Palomo" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#102a2a" />
+    <link rel="canonical" href="https://rubenpalomo.github.io/" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
 
-  <!-- Facebook and Twitter integration -->
-	<meta property="og:title" content=""/>
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content=""/>
-	<meta property="og:site_name" content=""/>
-	<meta property="og:description" content=""/>
-	<meta name="twitter:title" content="" />
-	<meta name="twitter:image" content="" />
-	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" />
+    <meta
+      property="og:title"
+      content="Rubén Palomo | Software, automatización e IA para pymes"
+    />
+    <meta
+      property="og:description"
+      content="Soluciones web y software a medida para digitalizar procesos, conectar herramientas y aplicar inteligencia artificial de forma útil."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="es_ES" />
+    <meta property="og:site_name" content="Rubén Palomo" />
+    <meta property="og:url" content="https://rubenpalomo.github.io/" />
+    <meta
+      property="og:image"
+      content="https://rubenpalomo.github.io/images/about.jpg"
+    />
+    <meta property="og:image:width" content="495" />
+    <meta property="og:image:height" content="576" />
+    <meta
+      property="og:image:alt"
+      content="Retrato profesional de Rubén Palomo"
+    />
+    <meta name="twitter:card" content="summary" />
+    <meta
+      name="twitter:title"
+      content="Rubén Palomo | Software, automatización e IA para pymes"
+    />
+    <meta
+      name="twitter:description"
+      content="Desarrollo soluciones digitales para reducir tareas manuales, conectar aplicaciones y mejorar procesos de negocio."
+    />
+    <meta
+      name="twitter:image"
+      content="https://rubenpalomo.github.io/images/about.jpg"
+    />
+    <meta
+      name="twitter:image:alt"
+      content="Retrato profesional de Rubén Palomo"
+    />
 
-	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-	<link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/style.css" />
 
-	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
-	
-	<!-- Animate.css -->
-	<link rel="stylesheet" href="css/animate.css">
-	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.css">
-	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<!-- Flexslider  -->
-	<link rel="stylesheet" href="css/flexslider.css">
-	<!-- Flaticons  -->
-	<link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
-	<!-- Owl Carousel -->
-	<link rel="stylesheet" href="css/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/owl.theme.default.min.css">
-	<!-- Theme style  -->
-	<link rel="stylesheet" href="css/style.css">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Person",
+            "@id": "https://rubenpalomo.github.io/#ruben-palomo",
+            "name": "Rubén Palomo",
+            "url": "https://rubenpalomo.github.io/",
+            "image": "https://rubenpalomo.github.io/images/about.jpg",
+            "jobTitle": "Desarrollador de software y consultor de automatización e inteligencia artificial",
+            "sameAs": [
+              "https://www.linkedin.com/in/ruben-palomo-fontan/",
+              "https://github.com/RubenPalomo"
+            ],
+            "knowsAbout": [
+              "Desarrollo web",
+              "Software a medida",
+              "Automatización de procesos",
+              "Integración de APIs",
+              "Inteligencia artificial aplicada"
+            ]
+          },
+          {
+            "@type": "ProfessionalService",
+            "@id": "https://rubenpalomo.github.io/#servicio-profesional",
+            "name": "Rubén Palomo — Desarrollo de software, automatización e IA",
+            "url": "https://rubenpalomo.github.io/",
+            "description": "Desarrollo web y software a medida, automatización de procesos, integraciones y soluciones de inteligencia artificial para autónomos, pequeñas empresas y pymes.",
+            "founder": {
+              "@id": "https://rubenpalomo.github.io/#ruben-palomo"
+            },
+            "areaServed": "ES",
+            "email": "ruben.palomof@gmail.com",
+            "telephone": "+34635028815",
+            "sameAs": [
+              "https://www.linkedin.com/in/ruben-palomo-fontan/",
+              "https://github.com/RubenPalomo"
+            ],
+            "hasOfferCatalog": {
+              "@type": "OfferCatalog",
+              "name": "Servicios digitales",
+              "itemListElement": [
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Desarrollo web"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Software a medida"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Automatización de procesos"
+                  }
+                },
+                {
+                  "@type": "Offer",
+                  "itemOffered": {
+                    "@type": "Service",
+                    "name": "Consultoría e implementación de inteligencia artificial"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido principal</a>
 
-	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
-	<!-- FOR IE9 below -->
-	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
+    <header class="site-header" data-header>
+      <div class="container header-inner">
+        <a
+          class="brand"
+          href="#inicio"
+          aria-label="Rubén Palomo, volver al inicio"
+        >
+          <span class="brand-mark" aria-hidden="true">RP</span>
+          <span class="brand-copy">
+            <strong>Rubén Palomo</strong>
+            <span>Soluciones digitales</span>
+          </span>
+        </a>
 
-	</head>
-	<body>
-	<div id="colorlib-page">
-		<div class="container-wrap">
-		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
-		<aside id="colorlib-aside" role="complementary" class="border js-fullheight">
-			<div class="text-center">
-				<div class="author-img" style="background-image: url(images/about.jpg);"></div>
-				<h1 id="colorlib-logo"><a href="index.html">Ruben Palomo</a></h1>
-				<span class="position"><a href="https://www.linkedin.com/in/ruben-palomo-fontan/">Software Developer</a> in Spain</span>
-			</div>
-			<nav id="colorlib-main-menu" role="navigation" class="navbar">
-				<div id="navbar" class="collapse">
-					<ul>
-						<li class="active"><a href="#" data-nav-section="home">Home</a></li>
-						<li><a href="#" data-nav-section="about">About</a></li>
-						<li><a href="#" data-nav-section="services">Services</a></li>
-						<li><a href="#" data-nav-section="skills">Skills</a></li>
-						<li><a href="#" data-nav-section="education">Education</a></li>
-						<li><a href="#" data-nav-section="experience">Experience</a></li>
-						<li><a href="#" data-nav-section="work">Work</a></li>
-						<!--<li><a href="#" data-nav-section="blog">Blog</a></li>-->
-						<li><a href="#" data-nav-section="contact">Contact</a></li>
-					</ul>
-				</div>
-			</nav>
+        <button
+          class="menu-button"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-navigation"
+          aria-label="Abrir menú de navegación"
+          data-menu-button
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
 
-			<div class="colorlib-footer">
-				<p><small>&copy; <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright <script>document.write(new Date().getFullYear());</script> All rights reserved. Made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --> </span> <span>Distributed by <a href="https://themewagon.com" target="_blank">ThemeWagon</a></span> <span>Demo Images: <a href="https://unsplash.com/" target="_blank">Unsplash.com</a></span></small></p>
-				<ul>
-					<li><a href="#"><i class="icon-facebook2"></i></a></li>
-					<li><a href="#"><i class="icon-twitter2"></i></a></li>
-					<li><a href="#"><i class="icon-instagram"></i></a></li>
-					<li><a href="https://www.linkedin.com/in/ruben-palomo-fontan/"><i class="icon-linkedin2"></i>Linkedin</a></li>
-				</ul>
-			</div>
+        <nav
+          class="site-navigation"
+          id="site-navigation"
+          aria-label="Navegación principal"
+          data-navigation
+        >
+          <a href="#problemas">Qué resuelvo</a>
+          <a href="#servicios">Servicios</a>
+          <a href="#proceso">Cómo trabajo</a>
+          <a href="#capacidades">Capacidades</a>
+          <a href="#sobre-mi">Sobre mí</a>
+          <a class="nav-cta" href="#contacto">Cuéntame tu proyecto</a>
+        </nav>
+      </div>
+    </header>
 
-		</aside>
+    <main id="contenido">
+      <section class="hero" id="inicio" aria-labelledby="hero-title">
+        <div class="hero-orb hero-orb-one" aria-hidden="true"></div>
+        <div class="hero-orb hero-orb-two" aria-hidden="true"></div>
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Desarrollo web · Automatización · IA aplicada</p>
+            <h1 id="hero-title">
+              Desarrollo software, automatizo procesos e implemento IA para que
+              tu empresa <span>trabaje mejor.</span>
+            </h1>
+            <p class="hero-lead">
+              Creo soluciones web y software a medida, conecto herramientas y
+              elimino tareas repetitivas. También te ayudo a identificar y
+              aplicar la inteligencia artificial allí donde aporta un valor
+              real.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#contacto">
+                Cuéntame tu proyecto
+                <span aria-hidden="true">↗</span>
+              </a>
+              <a class="button button-secondary" href="#servicios">
+                Ver servicios
+                <span aria-hidden="true">↓</span>
+              </a>
+            </div>
+            <div class="profile-links" aria-label="Perfiles profesionales">
+              <a
+                href="https://www.linkedin.com/in/ruben-palomo-fontan/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                LinkedIn <span aria-hidden="true">↗</span>
+              </a>
+              <a
+                href="https://github.com/RubenPalomo"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GitHub <span aria-hidden="true">↗</span>
+              </a>
+            </div>
+          </div>
 
-		<div id="colorlib-main">
-			<section id="colorlib-hero" class="js-fullheight" data-section="home">
-				<div class="flexslider js-fullheight">
-					<ul class="slides">
-				   	<li style="background-image: url(images/img_bg_1.jpg);">
-				   		<div class="overlay"></div>
-				   		<div class="container-fluid">
-				   			<div class="row">
-					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
-					   				<div class="slider-text-inner js-fullheight">
-					   					<div class="desc">
-						   					<h1>Hi! <br>I'm Ruben</h1>
-						   					<h2>I'm 28 and I'm currently living in Spain</h2>
-												<p><a href="RubenPalomo_CV-EN.pdf" download="RubenPalomo_CV.pdf" class="btn btn-primary btn-learn" target="_blank">Download CV<i class="icon-download4"></i></a></p>
-											</div>
-					   				</div>
-					   			</div>
-					   		</div>
-				   		</div>
-				   	</li>
-				   	<li style="background-image: url(images/img_bg_2.jpg);">
-				   		<div class="overlay"></div>
-				   		<div class="container-fluid">
-				   			<div class="row">
-					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
-					   				<div class="slider-text-inner">
-					   					<div class="desc">
-						   					<h1>I am <br>a Software Developer</h1>
-												<h2>I'm looking for a job where I will be able to improve my skills and learn</h2>
-												<p><a href="https://github.com/RubenPalomo" class="btn btn-primary btn-learn" target="_blank">View Portfolio <i class="icon-briefcase3"></i></a></p>
-											</div>
-					   				</div>
-					   			</div>
-					   		</div>
-				   		</div>
-				   	</li>
-				  	</ul>
-			  	</div>
-			</section>
+          <aside class="hero-panel" aria-label="Enfoque de las soluciones">
+            <div class="panel-topline">
+              <span>Un proceso más claro</span>
+              <span class="status-dot">En marcha</span>
+            </div>
+            <p class="panel-title">
+              De la fricción diaria a un sistema que fluye
+            </p>
+            <ol class="solution-flow">
+              <li>
+                <span class="flow-number">01</span>
+                <div>
+                  <strong>Detectar el bloqueo</strong>
+                  <span
+                    >Tareas manuales, datos aislados o poca visibilidad.</span
+                  >
+                </div>
+              </li>
+              <li>
+                <span class="flow-number">02</span>
+                <div>
+                  <strong>Diseñar la solución</strong>
+                  <span>Solo la tecnología necesaria para resolverlo.</span>
+                </div>
+              </li>
+              <li>
+                <span class="flow-number">03</span>
+                <div>
+                  <strong>Medir la mejora</strong>
+                  <span>Más control, menos pasos y un proceso mantenible.</span>
+                </div>
+              </li>
+            </ol>
+            <div class="panel-note">
+              <span aria-hidden="true">✦</span>
+              <p>
+                <strong>Primero el problema.</strong>
+                Después, la tecnología.
+              </p>
+            </div>
+          </aside>
+        </div>
 
-			<section class="colorlib-about" data-section="about">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
-								<div class="col-md-12">
-									<div class="about-desc">
-										<span class="heading-meta">About Me</span>
-										<h2 class="colorlib-heading">Who Am I?</h2>
-										<p><strong>Hi I'm Ruben Palomo</strong> I'm currently studying the Cross-platform Applications Development degree and, self-taught, Python and MongoDB. I have experience with VR and AR applications development and a great desire to learn more about the amazing world of coding.</p>
-										<p>I'm working in my english skills too, studying every day on my own and in an academy, preparing myself to get the Cambridge English Qualification C1.</p>
-									</div>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-md-3 animate-box" data-animate-effect="fadeInLeft">
-									<div class="services color-1">
-										<span class="icon2"><i class="icon-bulb"></i></span>
-										<h3>Software<br>logic</h3>
-									</div>
-								</div>
-								<div class="col-md-3 animate-box" data-animate-effect="fadeInRight">
-									<div class="services color-2">
-										<span class="icon2"><i class="icon-globe-outline"></i></span>
-										<h3>Teamwork and flexibility</h3>
-									</div>
-								</div>
-								<div class="col-md-3 animate-box" data-animate-effect="fadeInTop">
-									<div class="services color-3">
-										<span class="icon2"><i class="icon-data"></i></span>
-										<h3>Databases management</h3>
-									</div>
-								</div>
-								<div class="col-md-3 animate-box" data-animate-effect="fadeInBottom">
-									<div class="services color-4">
-										<span class="icon2"><i class="icon-phone3"></i></span>
-										<h3>App development</h3>
-									</div>
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-									<div class="hire">
-										<h2>I am happy to meet you <br>Let's grow together!</h2>
-										<a href="https://www.linkedin.com/in/ruben-palomo-fontan/" class="btn-hire" target="_blank">Hire me</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
+        <div class="container audience-strip" aria-label="Público objetivo">
+          <p>Soluciones pensadas para</p>
+          <ul>
+            <li>Autónomos</li>
+            <li>Pequeñas empresas</li>
+            <li>Pymes</li>
+            <li>Equipos que quieren avanzar</li>
+          </ul>
+        </div>
+      </section>
 
+      <section class="section problems-section" id="problemas">
+        <div class="container">
+          <div class="section-heading split-heading">
+            <div>
+              <p class="eyebrow">Problemas que resuelvo</p>
+              <h2>Menos fricción. Más tiempo para tu negocio.</h2>
+            </div>
+            <p>
+              La digitalización empieza por detectar qué está frenando al
+              equipo. A partir de ahí, construyo una solución concreta, fácil de
+              usar y preparada para evolucionar.
+            </p>
+          </div>
 
-			
-			<section class="colorlib-services" data-section="services">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">What I do?</span>
-							<h2 class="colorlib-heading">Here are some of my expertise</h2>
-						</div>
-					</div>
-					<div class="row row-pt-md">
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-1">
-								<span class="icon">
-									<i class="icon-bulb"></i>
-								</span>
-								<div class="desc">
-									<h3>Innovative Ideas</h3>
-									<p>Facility in problem solving and flexibility in the language ​​used</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-2">
-								<span class="icon">
-									<i class="icon-data"></i>
-								</span>
-								<div class="desc">
-									<h3>Software</h3>
-									<p>Tireless love for software development with clean and clear code</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-3">
-								<span class="icon">
-									<i class="icon-phone3"></i>
-								</span>
-								<div class="desc">
-									<h3>Application</h3>
-									<p>Adaptation to different platforms, including VR and AR apps</p>
-								</div>
-							</div>
-						</div>
-						<!--<div class="col-md-4 text-center animate-box">
-							<div class="services color-4">
-								<span class="icon">
-									<i class="icon-layers2"></i>
-								</span>
-								<div class="desc">
-									<h3>Graphic Design</h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-5">
-								<span class="icon">
-									<i class="icon-data"></i>
-								</span>
-								<div class="desc">
-									<h3>Software</h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 text-center animate-box">
-							<div class="services color-6">
-								<span class="icon">
-									<i class="icon-phone3"></i>
-								</span>
-								<div class="desc">
-									<h3>Application</h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics</p>
-								</div>
-							</div>
-						</div>-->
-					</div>
-				</div>
-			</section>
-			
-			<div id="colorlib-counter" class="colorlib-counters" style="background-image: url(images/cover_bg_1.jpg);" data-stellar-background-ratio="0.5">
-				<div class="overlay"></div>
-				<div class="colorlib-narrow-content">
-					<div class="row">
-					</div>
-					<div class="row">
-						<div class="col-md-3 text-center animate-box">
-							<span class="colorlib-counter js-counter" data-from="0" data-to="309" data-speed="5000" data-refresh-interval="50"></span>
-							<span class="colorlib-counter-label">Cups of coffee</span>
-						</div>
-						<div class="col-md-3 text-center animate-box">
-							<span class="colorlib-counter js-counter" data-from="0" data-to="23" data-speed="5000" data-refresh-interval="50"></span>
-							<span class="colorlib-counter-label">Github Projects</span>
-						</div>
-						<div class="col-md-3 text-center animate-box">
-							<span class="colorlib-counter js-counter" data-from="0" data-to="1" data-speed="5000" data-refresh-interval="50"></span>
-							<span class="colorlib-counter-label">Works</span>
-						</div>
-						<div class="col-md-3 text-center animate-box">
-							<span class="colorlib-counter js-counter" data-from="0" data-to="9999" data-speed="5000" data-refresh-interval="50"></span>
-							<span class="colorlib-counter-label">Enthusiasm and passion</span>
-						</div>
-					</div>
-				</div>
-			</div>
+          <div class="problem-grid">
+            <article class="problem-card">
+              <p class="problem-label">Tiempo perdido</p>
+              <h3>Tareas manuales que se repiten cada día</h3>
+              <div class="card-divider" aria-hidden="true"></div>
+              <p class="solution-label">La solución</p>
+              <p>
+                Automatizar pasos, documentos, avisos y flujos para reducir
+                trabajo repetitivo y errores evitables.
+              </p>
+            </article>
+            <article class="problem-card">
+              <p class="problem-label">Datos desconectados</p>
+              <h3>La misma información copiada entre varias herramientas</h3>
+              <div class="card-divider" aria-hidden="true"></div>
+              <p class="solution-label">La solución</p>
+              <p>
+                Integrar aplicaciones y sincronizar datos mediante APIs para
+                mantener una única información coherente.
+              </p>
+            </article>
+            <article class="problem-card">
+              <p class="problem-label">Poco control</p>
+              <h3>Procesos difíciles de seguir y decisiones sin contexto</h3>
+              <div class="card-divider" aria-hidden="true"></div>
+              <p class="solution-label">La solución</p>
+              <p>
+                Crear herramientas internas, paneles y bases de datos que hagan
+                visible lo importante en cada momento.
+              </p>
+            </article>
+            <article class="problem-card">
+              <p class="problem-label">Presencia digital</p>
+              <h3>Una web anticuada o que no facilita el contacto</h3>
+              <div class="card-divider" aria-hidden="true"></div>
+              <p class="solution-label">La solución</p>
+              <p>
+                Diseñar una experiencia rápida, clara y enfocada a explicar el
+                valor del negocio y generar conversaciones.
+              </p>
+            </article>
+            <article class="problem-card">
+              <p class="problem-label">Atención repetitiva</p>
+              <h3>Las mismas consultas consumen una y otra vez al equipo</h3>
+              <div class="card-divider" aria-hidden="true"></div>
+              <p class="solution-label">La solución</p>
+              <p>
+                Organizar el conocimiento y automatizar respuestas o
+                clasificaciones manteniendo el control humano.
+              </p>
+            </article>
+            <article class="problem-card accent-card">
+              <p class="problem-label">IA sin rumbo</p>
+              <h3>Dudas sobre dónde puede aportar realmente la IA</h3>
+              <div class="card-divider" aria-hidden="true"></div>
+              <p class="solution-label">La solución</p>
+              <p>
+                Analizar casos de uso, riesgos y viabilidad antes de implementar
+                una solución práctica conectada al proceso real.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
 
-			<section class="colorlib-skills" data-section="skills">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">My Specialty</span>
-							<h2 class="colorlib-heading animate-box">My Skills</h2>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-							<p>I try to improve my skills every day, my hard skills and the soft one too. I love work in a team and stuggle together to make the job, learning each one from another.</p>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="progress-wrap">
-								<h3>Workteam</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-1" role="progressbar" aria-valuenow="85"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:85%">
-								    <span>85%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="progress-wrap">
-								<h3>Python</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-2" role="progressbar" aria-valuenow="65"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:65%">
-								    <span>65%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="progress-wrap">
-								<h3>Desire to learn</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-3" role="progressbar" aria-valuenow="99"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:99%">
-								    <span>99%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="progress-wrap">
-								<h3>C#</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-4" role="progressbar" aria-valuenow="60"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:60%">
-								    <span>60%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="progress-wrap">
-								<h3>Web Design</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-5" role="progressbar" aria-valuenow="55"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:55%">
-								    <span>55%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="progress-wrap">
-								<h3>Applications Development</h3>
-								<div class="progress">
-								 	<div class="progress-bar color-6" role="progressbar" aria-valuenow="80"
-								  	aria-valuemin="0" aria-valuemax="100" style="width:80%">
-								    <span>80%</span>
-								  	</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
+      <section class="section services-section" id="servicios">
+        <div class="container">
+          <div class="section-heading split-heading">
+            <div>
+              <p class="eyebrow">Servicios</p>
+              <h2>La solución adecuada para cada reto.</h2>
+            </div>
+            <p>
+              Puedo ayudarte desde una necesidad puntual hasta el desarrollo y
+              evolución de una herramienta completa.
+            </p>
+          </div>
 
-			<section class="colorlib-education" data-section="education">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">Education</span>
-							<h2 class="colorlib-heading animate-box">Education</h2>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-							<div class="fancy-collapse-panel">
-								<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-									<div class="panel panel-default">
-									    <div class="panel-heading" role="tab" id="headingOne">
-									        <h4 class="panel-title">
-									            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Cross-platform Applications Development Degree
-									            </a>
-									        </h4>
-									    </div>
-									    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-									         <div class="panel-body">
-									            <div class="row">
-										      		<div class="col-md-6">
-										      			<p>Spanish degree higher than bachelor where we study for 2 years how to create applications.</p>
-										      		</div>
-										      		<div class="col-md-6">
-										      			<p>I've learnt here HTML, CSS, Bootstrap, Wordpress, MySQL, Java, Android Studio, Unity and C#.</p>
-										      		</div>
-										      	</div>
-									         </div>
-									    </div>
-									</div>
-									<div class="panel panel-default">
-									    <div class="panel-heading" role="tab" id="headingTwo">
-									        <h4 class="panel-title">
-									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Crash Course on Python with Google
-									            </a>
-									        </h4>
-									    </div>
-									    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-									        <div class="panel-body">
-									            <p>Google course about <strong>Python</strong> in Coursera. We learnt:</p>
-													<ul>
-														<li>Automate tasks by writing Python scripts</li>
-														<li>Manage IT resources at scale, both for physical machines and virtual machines in the cloud</li>
-														<li>Use Git and GitHub for version control</li>
-														<li>Analyze real-world IT problems and implement the appropriate strategies to solve those problems</li>
-													</ul>
-									        </div>
-									    </div>
-									</div>
-									<div class="panel panel-default">
-									    <div class="panel-heading" role="tab" id="headingThree">
-									        <h4 class="panel-title">
-									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">Java Programming Course
-									            </a>
-									        </h4>
-									    </div>
-									    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-									        <div class="panel-body">
-												<p>210 hours course about <strong>Java</strong> with Aspasia Group.</p>
-												<ul>
-													<li>Ibecon 2003 S.L., Aspasia Group</li>
-													<li>Made in 2022</li>
-												</ul>
-									        </div>
-									    </div>
-									</div>
+          <div class="services-grid">
+            <article class="service-card">
+              <div class="service-card-heading">
+                <span>01</span>
+                <p>Presencia y producto digital</p>
+              </div>
+              <h3>Desarrollo web</h3>
+              <p class="service-intro">
+                Sitios y aplicaciones rápidos, accesibles y alineados con el
+                objetivo del negocio.
+              </p>
+              <ul class="check-list">
+                <li>Webs corporativas y landing pages</li>
+                <li>Portales internos y aplicaciones web</li>
+                <li>Experiencia de usuario y rendimiento</li>
+                <li>Mantenimiento y evolución</li>
+              </ul>
+            </article>
 
-									<div class="panel panel-default">
-									    <div class="panel-heading" role="tab" id="headingFour">
-									        <h4 class="panel-title">
-									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">Analysis and Programming in Java
-									            </a>
-									        </h4>
-									    </div>
-									    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
-									        <div class="panel-body">
-												<p>140 hours course about <strong>Java</strong> and analysis of code, complementary course of the previous one.</p>
-												<ul>
-													<li>Aspasia Group</li>
-													<li>Made in 2022</li>
-												</ul>
-									        </div>
-									    </div>
-									</div>
+            <article class="service-card">
+              <div class="service-card-heading">
+                <span>02</span>
+                <p>Herramientas adaptadas</p>
+              </div>
+              <h3>Software a medida</h3>
+              <p class="service-intro">
+                Sistemas construidos alrededor de tu forma de trabajar, no al
+                revés.
+              </p>
+              <ul class="check-list">
+                <li>Herramientas internas y de gestión</li>
+                <li>APIs y paneles de administración</li>
+                <li>Bases de datos</li>
+                <li>Integración con sistemas existentes</li>
+              </ul>
+            </article>
 
-									<div class="panel panel-default">
-									    <div class="panel-heading" role="tab" id="headingFive">
-									        <h4 class="panel-title">
-									            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">More coding courses
-									            </a>
-									        </h4>
-									    </div>
-									    <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
-									        <div class="panel-body">
-												<ul>
-													<li>Spring for development of Java applications</li>
-													<li>Programming of Object-oriented applications</li>
-													<li>Code Institute's 5 Day Coding Challenge</li>
-												</ul>
-									        </div>
-									    </div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
+            <article class="service-card">
+              <div class="service-card-heading">
+                <span>03</span>
+                <p>Procesos conectados</p>
+              </div>
+              <h3>Automatización</h3>
+              <p class="service-intro">
+                Flujos que reducen tareas repetitivas y mantienen la información
+                donde debe estar.
+              </p>
+              <ul class="check-list">
+                <li>Sincronización de datos</li>
+                <li>Documentos, notificaciones y flujos</li>
+                <li>Integraciones con CRM, ERP y Microsoft 365</li>
+                <li>Automatización mediante APIs</li>
+              </ul>
+            </article>
 
-			<section class="colorlib-experience" data-section="experience">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">Experience</span>
-							<h2 class="colorlib-heading animate-box">Work Experience</h2>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12">
-				         <div class="timeline-centered">
-					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-					            <div class="timeline-entry-inner">
+            <article class="service-card service-card-dark">
+              <div class="service-card-heading">
+                <span>04</span>
+                <p>IA con propósito</p>
+              </div>
+              <h3>Inteligencia artificial</h3>
+              <p class="service-intro">
+                Asesoría e implementación para aplicar IA de forma útil,
+                comprensible y conectada a tu actividad.
+              </p>
+              <ul class="check-list">
+                <li>Chatbots, asistentes y agentes de IA</li>
+                <li>Clasificación y procesamiento de mensajes</li>
+                <li>Consulta sobre documentación interna</li>
+                <li>Detección e integración de casos de uso</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
 
-					               <div class="timeline-icon color-1">
-					                  <i class="icon-pen2"></i>
-					               </div>
+      <section class="section process-section" id="proceso">
+        <div class="container">
+          <div class="section-heading centered-heading">
+            <p class="eyebrow">Cómo trabajo</p>
+            <h2>Un proceso claro de principio a fin.</h2>
+            <p>
+              Sin capas innecesarias. Entendemos el problema, definimos el
+              alcance y avanzamos por fases que se pueden revisar.
+            </p>
+          </div>
 
-					               <div class="timeline-label">
-					                  <h2>Software Developer <span>2022</span></h2>
-					                  <p>I was working for 383 hours in my degree practices on VT-Lab, making <strong>VR</strong> and <strong>AR applications</strong> in <strong>C#</strong> language and working with <strong>JSON</strong> files too.<br><br>I received a reference from the CEO of the company.</p>
-					               </div>
-					            </div>
-					         </article>
+          <ol class="process-list">
+            <li>
+              <span>01</span>
+              <h3>Análisis</h3>
+              <p>
+                Entender el problema, el proceso actual y el resultado esperado.
+              </p>
+            </li>
+            <li>
+              <span>02</span>
+              <h3>Propuesta</h3>
+              <p>
+                Definir solución, alcance, prioridades y criterios de éxito.
+              </p>
+            </li>
+            <li>
+              <span>03</span>
+              <h3>Desarrollo</h3>
+              <p>Construir por fases para obtener avances visibles y útiles.</p>
+            </li>
+            <li>
+              <span>04</span>
+              <h3>Validación</h3>
+              <p>Probar contigo que la solución responde al trabajo real.</p>
+            </li>
+            <li>
+              <span>05</span>
+              <h3>Puesta en marcha</h3>
+              <p>
+                Desplegar con control y dejar el funcionamiento documentado.
+              </p>
+            </li>
+            <li>
+              <span>06</span>
+              <h3>Evolución</h3>
+              <p>
+                Dar soporte, medir la mejora y adaptar lo que sea necesario.
+              </p>
+            </li>
+          </ol>
 
+          <div class="process-principle">
+            <span aria-hidden="true">“</span>
+            <p>
+              El objetivo no es añadir tecnología por añadirla, sino resolver un
+              problema real y conseguir una mejora que se pueda observar.
+            </p>
+          </div>
+        </div>
+      </section>
 
-					         <article class="timeline-entry animate-box" data-animate-effect="fadeInRight">
-					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-2">
-					                  <i class="icon-pen2"></i>
-					               </div>
-					               <div class="timeline-label">
-					               	<h2>42 Student <span>2022</span></h2>
-					                  <p>After the tough selection tests to be a 42 student I was able to join this institution where I study <strong>C, C++</strong> and <strong>Git</strong> in Linux environment.</p>
-					               </div>
-					            </div>
-					         </article>
+      <section class="section capabilities-section" id="capacidades">
+        <div class="container">
+          <div class="section-heading split-heading light-heading">
+            <div>
+              <p class="eyebrow">Capacidades</p>
+              <h2>Soluciones que puedo desarrollar.</h2>
+            </div>
+            <p>
+              Mi experiencia técnica abarca aplicaciones, automatización,
+              integración de datos y desarrollo en distintos entornos. La
+              herramienta se elige según el problema.
+            </p>
+          </div>
 
-					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-3">
-					                  <i class="icon-pen2"></i>
-					               </div>
-					               <div class="timeline-label">
-					               	<h2>OpenBootcamp student <span>2022</span></h2>
-					                  <p>I have been studying in OpenBootcamp recently to improve my coding skills. I did a <strong>Python</strong> course with them and now I'm working in new knowledges.</p>
-					               </div>
-					            </div>
-					         </article>
+          <div class="work-areas">
+            <article>
+              <span aria-hidden="true">⌁</span>
+              <h3>Aplicaciones web y de gestión</h3>
+              <p>
+                Interfaces, lógica de negocio, paneles, formularios y flujos
+                conectados a datos.
+              </p>
+            </article>
+            <article>
+              <span aria-hidden="true">↻</span>
+              <h3>Automatizaciones y bots</h3>
+              <p>
+                Scripts, tareas programadas, notificaciones y procesos que
+                eliminan pasos repetitivos.
+              </p>
+            </article>
+            <article>
+              <span aria-hidden="true">◇</span>
+              <h3>Integraciones y APIs</h3>
+              <p>
+                Intercambio de información, servicios backend y conexión entre
+                sistemas mediante APIs y JSON.
+              </p>
+            </article>
+            <article>
+              <span aria-hidden="true">✦</span>
+              <h3>IA y experiencias interactivas</h3>
+              <p>
+                Asistentes, procesamiento de información y experiencia previa en
+                aplicaciones de realidad virtual y aumentada.
+              </p>
+            </article>
+          </div>
 
-					         <article class="timeline-entry animate-box" data-animate-effect="fadeInTop">
-					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-4">
-					                  <i class="icon-pen2"></i>
-					               </div>
-								<div class="timeline-label">
-									<h2>Security Guard <span>2018-2022</span></h2>
-									<p>I have worked as a security guard for three years. In those years I learnt the difficulty of studying and working
-										at the same time.</p>
-								</div>
-					            </div>
-					         </article>
+          <div class="technology-groups">
+            <div>
+              <p>Web y backend</p>
+              <ul>
+                <li>JavaScript</li>
+                <li>TypeScript</li>
+                <li>Node.js</li>
+                <li>Python</li>
+                <li>Java</li>
+                <li>C#</li>
+                <li>HTML</li>
+                <li>CSS</li>
+              </ul>
+            </div>
+            <div>
+              <p>Datos e integraciones</p>
+              <ul>
+                <li>SQL</li>
+                <li>PostgreSQL</li>
+                <li>MySQL</li>
+                <li>MongoDB</li>
+                <li>REST APIs</li>
+                <li>JSON</li>
+                <li>Microsoft 365</li>
+              </ul>
+            </div>
+            <div>
+              <p>Entrega e IA</p>
+              <ul>
+                <li>Git</li>
+                <li>GitHub</li>
+                <li>APIs de IA</li>
+                <li>Automatización con IA</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
 
-					         <article class="timeline-entry animate-box" data-animate-effect="fadeInLeft">
-					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-5">
-					                  <i class="icon-pen2"></i>
-					               </div>
-								<div class="timeline-label">
-									<h2>Paratrooper soldier <span>2015-2018</span></h2>
-									<p>I joined the spanish Army for three years. There I learnt discipline, the satisfaction of a good job done and to
-										value things that we do not value in our day-to-day life.</p>
-								</div>
-					            </div>
-					         </article>
+      <section class="section about-section" id="sobre-mi">
+        <div class="container about-grid">
+          <figure class="portrait">
+            <div class="portrait-frame">
+              <img
+                src="images/about.jpg"
+                alt="Rubén Palomo, desarrollador de software"
+                width="495"
+                height="576"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <figcaption>
+              <span>Rubén Palomo</span>
+              Desarrollo de soluciones digitales
+            </figcaption>
+          </figure>
 
-					         <article class="timeline-entry begin animate-box" data-animate-effect="fadeInBottom">
-					            <div class="timeline-entry-inner">
-					               <div class="timeline-icon color-none">
-					               </div>
-					            </div>
-					         </article>
-					      </div>
-					   </div>
-				   </div>
-				</div>
-			</section>
+          <div class="about-copy">
+            <p class="eyebrow">Sobre mí</p>
+            <h2>Tecnología entendida desde el problema.</h2>
+            <p class="about-lead">
+              Soy desarrollador de software y me centro en convertir procesos
+              complejos o manuales en soluciones digitales claras y mantenibles.
+            </p>
+            <p>
+              Combino desarrollo frontend y backend, trabajo con datos e
+              integraciones y experiencia en aplicaciones para distintos
+              entornos. Me interesa especialmente la automatización y el uso
+              práctico de la inteligencia artificial para mejorar cómo trabajan
+              las pequeñas empresas.
+            </p>
+            <p>
+              Trabajo con comunicación directa, explicando las decisiones sin
+              jerga innecesaria y validando cada fase con quien conoce el
+              negocio. El objetivo es que la solución encaje hoy y pueda
+              evolucionar mañana.
+            </p>
+            <div class="about-values">
+              <div>
+                <strong>Comunicación directa</strong>
+                <span>Alcance, prioridades y avances siempre claros.</span>
+              </div>
+              <div>
+                <strong>Soluciones mantenibles</strong>
+                <span>Código y procesos preparados para evolucionar.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-			<section class="colorlib-work" data-section="work">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">My Work</span>
-							<h2 class="colorlib-heading animate-box">Recent Work</h2>
-						</div>
-					</div>
-					<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-						<div class="hire">
-							<p>You can see all my projects in my <a href="https://github.com/RubenPalomo" class="active" target="_blank">GitHub Repositories</a>. I made telegram bots with NodeJs, Python scripts and some Java programs.</p>
-						</div>
-					</div>
-				</div>
-			</section>
-					<!--<div class="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
-						<div class="col-md-12">
-							<p class="work-menu"><span><a href="#" class="active">Graphic Design</a></span> <span><a href="#">Web Design</a></span> <span><a href="#">Software</a></span> <span><a href="#">Apps</a></span></p>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="project" style="background-image: url(images/img-1.jpg);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="work.html">Work 01</a></h3>
-										<span>Website</span>
-										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="project" style="background-image: url(images/img-2.jpg);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="work.html">Work 02</a></h3>
-										<span>Animation</span>
-										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInTop">
-							<div class="project" style="background-image: url(images/img-3.jpg);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="work.html">Work 03</a></h3>
-										<span>Illustration</span>
-										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInBottom">
-							<div class="project" style="background-image: url(images/img-4.jpg);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="work.html">Work 04</a></h3>
-										<span>Application</span>
-										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="project" style="background-image: url(images/img-5.jpg);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="work.html">Work 05</a></h3>
-										<span>Graphic, Logo</span>
-										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="project" style="background-image: url(images/img-6.jpg);">
-								<div class="desc">
-									<div class="con">
-										<h3><a href="work.html">Work 06</a></h3>
-										<span>Web Design</span>
-										<p class="icon">
-											<span><a href="#"><i class="icon-share3"></i></a></span>
-											<span><a href="#"><i class="icon-eye"></i> 100</a></span>
-											<span><a href="#"><i class="icon-heart"></i> 49</a></span>
-										</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12 animate-box">
-							<p><a href="#" class="btn btn-primary btn-lg btn-load-more">Load more <i class="icon-reload"></i></a></p>
-						</div>
-					</div>
-				</div>
-			</section>
+      <section class="section contact-section" id="contacto">
+        <div class="container">
+          <div class="contact-intro">
+            <p class="eyebrow">Contacto</p>
+            <h2>
+              ¿Tienes un proceso que mejorar o una idea que poner en marcha?
+            </h2>
+            <p>
+              Cuéntame qué está pasando ahora, qué te gustaría conseguir y qué
+              herramientas utilizas. Revisaré el contexto y podremos valorar el
+              siguiente paso.
+            </p>
+            <div class="contact-links">
+              <a href="mailto:ruben.palomof@gmail.com">
+                <span>Correo</span>
+                <strong>ruben.palomof@gmail.com</strong>
+              </a>
+              <a href="tel:+34635028815">
+                <span>Teléfono</span>
+                <strong>+34 635 02 88 15</strong>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/ruben-palomo-fontan/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span>Perfil profesional</span>
+                <strong>LinkedIn <i aria-hidden="true">↗</i></strong>
+              </a>
+              <a
+                href="https://github.com/RubenPalomo"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <span>Código y proyectos</span>
+                <strong>GitHub <i aria-hidden="true">↗</i></strong>
+              </a>
+            </div>
+          </div>
 
-			<section class="colorlib-blog" data-section="blog">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">Read</span>
-							<h2 class="colorlib-heading">Recent Blog</h2>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="blog-entry">
-								<a href="blog.html" class="blog-img"><img src="images/blog-1.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
-								<div class="desc">
-									<span><small>April 14, 2018 </small> | <small> Web Design </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
-									<h3><a href="blog.html">Renovating National Gallery</a></h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInRight">
-							<div class="blog-entry">
-								<a href="blog.html" class="blog-img"><img src="images/blog-2.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
-								<div class="desc">
-									<span><small>April 14, 2018 </small> | <small> Web Design </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
-									<h3><a href="blog.html">Wordpress for a Beginner</a></h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-6 animate-box" data-animate-effect="fadeInLeft">
-							<div class="blog-entry">
-								<a href="blog.html" class="blog-img"><img src="images/blog-3.jpg" class="img-responsive" alt="HTML5 Bootstrap Template by colorlib.com"></a>
-								<div class="desc">
-									<span><small>April 14, 2018 </small> | <small> Inspiration </small> | <small> <i class="icon-bubble3"></i> 4</small></span>
-									<h3><a href="blog.html">Make website from scratch</a></h3>
-									<p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-12 animate-box">
-							<p><a href="#" class="btn btn-primary btn-lg btn-load-more">Load more <i class="icon-reload"></i></a></p>
-						</div>
-					</div>
-				</div>
-			</section>
-		-->
-			<section class="colorlib-contact" data-section="contact">
-				<div class="colorlib-narrow-content">
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">Get in Touch</span>
-							<h2 class="colorlib-heading">Contact</h2>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-5">
-							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
-								<div class="colorlib-icon">
-									<i class="icon-globe-outline"></i>
-								</div>
-								<div class="colorlib-text">
-									<p><a href="">ruben.palomof@gmail.com</a></p>
-								</div>
-							</div>
+          <form
+            class="contact-form"
+            id="contact-form"
+            action="mailto:ruben.palomof@gmail.com"
+            method="post"
+            enctype="text/plain"
+            aria-describedby="form-note"
+          >
+            <div class="form-heading">
+              <span>Hablemos</span>
+              <p>Describe brevemente tu proyecto</p>
+            </div>
 
-							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
-								<div class="colorlib-icon">
-									<i class="icon-map"></i>
-								</div>
-								<div class="colorlib-text">
-									<p>Rosalia de Castro<br>Arroyomolinos, Madrid</p>
-								</div>
-							</div>
+            <div class="form-grid">
+              <div class="field">
+                <label for="name">Nombre</label>
+                <input
+                  id="name"
+                  name="name"
+                  type="text"
+                  autocomplete="name"
+                  required
+                />
+              </div>
+              <div class="field">
+                <label for="company">Empresa <span>(opcional)</span></label>
+                <input
+                  id="company"
+                  name="company"
+                  type="text"
+                  autocomplete="organization"
+                />
+              </div>
+              <div class="field">
+                <label for="email">Email</label>
+                <input
+                  id="email"
+                  name="email"
+                  type="email"
+                  autocomplete="email"
+                  required
+                />
+              </div>
+              <div class="field">
+                <label for="project-type">Tipo de proyecto</label>
+                <select id="project-type" name="project-type" required>
+                  <option value="">Selecciona una opción</option>
+                  <option value="Desarrollo web">Desarrollo web</option>
+                  <option value="Software a medida">Software a medida</option>
+                  <option value="Automatización">Automatización</option>
+                  <option value="Inteligencia artificial">
+                    Inteligencia artificial
+                  </option>
+                  <option value="Consultoría">Consultoría</option>
+                  <option value="Otro">Otro</option>
+                </select>
+              </div>
+              <div class="field field-full">
+                <label for="message">Mensaje</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="6"
+                  minlength="20"
+                  placeholder="¿Qué quieres mejorar, automatizar o construir?"
+                  required
+                ></textarea>
+              </div>
+            </div>
 
-							<div class="colorlib-feature colorlib-feature-sm animate-box" data-animate-effect="fadeInLeft">
-								<div class="colorlib-icon">
-									<i class="icon-phone"></i>
-								</div>
-								<div class="colorlib-text">
-									<p><a href="tel://">+34 635 02 88 15</a></p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-7 col-md-push-1">
-							<div class="row">
-								<div class="col-md-10 col-md-offset-1 col-md-pull-1 animate-box" data-animate-effect="fadeInRight">
-									<form action="">
-										<div class="form-group">
-											<input type="text" class="form-control" placeholder="Name">
-										</div>
-										<div class="form-group">
-											<input type="text" class="form-control" placeholder="Email">
-										</div>
-										<div class="form-group">
-											<input type="text" class="form-control" placeholder="Subject">
-										</div>
-										<div class="form-group">
-											<textarea name="" id="message" cols="30" rows="7" class="form-control" placeholder="Message"></textarea>
-										</div>
-										<div class="form-group">
-											<input type="submit" class="btn btn-primary btn-send-message" value="Send Message">
-										</div>
-									</form>
-								</div>
-								
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
+            <button class="button button-primary form-submit" type="submit">
+              Preparar correo
+              <span aria-hidden="true">↗</span>
+            </button>
+            <p class="form-note" id="form-note">
+              Al continuar se abrirá tu aplicación de correo con el mensaje
+              preparado. Esta web no almacena ni envía tus datos a terceros.
+            </p>
+            <p class="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+    </main>
 
-		</div><!-- end:colorlib-main -->
-	</div><!-- end:container-wrap -->
-	</div><!-- end:colorlib-page -->
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div>
+          <a class="footer-brand" href="#inicio">Rubén Palomo</a>
+          <p>Software, automatización e IA práctica para pequeñas empresas.</p>
+        </div>
+        <div class="footer-links">
+          <a href="#servicios">Servicios</a>
+          <a href="#proceso">Cómo trabajo</a>
+          <a href="#contacto">Contacto</a>
+        </div>
+        <p class="copyright">© <span data-year></span> Rubén Palomo</p>
+      </div>
+    </footer>
 
-	<!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
-	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
-	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
-	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
-	<!-- Flexslider -->
-	<script src="js/jquery.flexslider-min.js"></script>
-	<!-- Owl carousel -->
-	<script src="js/owl.carousel.min.js"></script>
-	<!-- Counters -->
-	<script src="js/jquery.countTo.js"></script>
-	
-	
-	<!-- MAIN JS -->
-	<script src="js/main.js"></script>
-
-	</body>
+    <script src="js/main.js" defer></script>
+  </body>
 </html>
-
