@@ -24,7 +24,8 @@ No se cargan fuentes, librerías ni scripts de terceros. Esto reduce el peso ini
 ├── js/
 │   └── main.js      # Menú móvil, navegación y formulario
 ├── images/
-│   └── about.jpg    # Retrato utilizado en la sección «Sobre mí»
+│   ├── ruben-palomo-profesional.jpg # Retrato de la sección «Sobre mí»
+│   └── ruben-palomo-avatar.jpg      # Recorte para el encabezado
 ├── favicon.svg
 ├── robots.txt
 └── sitemap.xml
