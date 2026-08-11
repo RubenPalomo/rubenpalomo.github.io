@@ -182,6 +182,7 @@
           <a href="#proceso">Cómo trabajo</a>
           <a href="#capacidades">Capacidades</a>
           <a href="#sobre-mi">Sobre mí</a>
+          <a href="#newsletter">Newsletter</a>
           <a class="nav-cta" href="#contacto">Cuéntame tu proyecto</a>
         </nav>
       </div>
@@ -657,6 +658,94 @@
         </div>
       </section>
 
+      <section class="section newsletter-section" id="newsletter">
+        <div class="container newsletter-grid">
+          <div class="newsletter-copy">
+            <p class="eyebrow">Newsletter</p>
+            <h2>Ideas útiles para vender más tiempo, no más horas.</h2>
+            <p>
+              Recibe contenidos prácticos sobre ofertas digitales,
+              automatización de tareas, inteligencia artificial aplicada y
+              formas realistas de ganar productividad y alcance en negocios
+              pequeños.
+            </p>
+            <ul class="newsletter-points">
+              <li>Casos concretos para autónomos y pymes.</li>
+              <li>Procesos repetitivos que se pueden simplificar.</li>
+              <li>Ideas para llegar mejor a clientes sin añadir más carga.</li>
+            </ul>
+          </div>
+
+          <form
+            class="newsletter-form"
+            id="newsletter-form"
+            aria-describedby="newsletter-note"
+          >
+            <div class="form-heading">
+              <span>Apúntate</span>
+              <p>Recibe la próxima edición</p>
+            </div>
+
+            <div class="form-grid">
+              <div class="field">
+                <label for="newsletter-name">Nombre</label>
+                <input
+                  id="newsletter-name"
+                  name="name"
+                  type="text"
+                  autocomplete="name"
+                  required
+                />
+              </div>
+              <div class="field">
+                <label for="newsletter-email">Email</label>
+                <input
+                  id="newsletter-email"
+                  name="email"
+                  type="email"
+                  autocomplete="email"
+                  required
+                />
+              </div>
+              <div class="field field-full">
+                <label for="newsletter-company">
+                  Empresa <span>(opcional)</span>
+                </label>
+                <input
+                  id="newsletter-company"
+                  name="company"
+                  type="text"
+                  autocomplete="organization"
+                />
+              </div>
+            </div>
+
+            <label class="consent-field" for="newsletter-consent">
+              <input
+                id="newsletter-consent"
+                name="consent"
+                type="checkbox"
+                required
+              />
+              <span>
+                Acepto recibir información sobre ofertas, automatización,
+                productividad e inteligencia artificial aplicada.
+              </span>
+            </label>
+
+            <button class="button button-primary form-submit" type="submit">
+              Apuntarme
+              <span aria-hidden="true">→</span>
+            </button>
+            <p class="form-note" id="newsletter-note">
+              Al enviar el formulario se notificará la suscripción a Rubén. No
+              se publican tus datos en la web.
+            </p>
+            <p class="form-status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </section>
+
       <section class="section contact-section" id="contacto">
         <div class="container">
           <div class="contact-intro">
@@ -790,6 +879,7 @@
         <div class="footer-links">
           <a href="#servicios">Servicios</a>
           <a href="#proceso">Cómo trabajo</a>
+          <a href="#newsletter">Newsletter</a>
           <a href="#contacto">Contacto</a>
         </div>
         <p class="copyright">© <span data-year></span> Rubén Palomo</p>
