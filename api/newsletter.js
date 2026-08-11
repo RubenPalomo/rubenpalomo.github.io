@@ -13,11 +13,10 @@ module.exports = async function handler(request, response) {
     json(response, 405, { ok: false, error: "Method not allowed" });
     return;
   }
+  const TELEGRAM_TOKEN = "1463801315:AAEB1RxxzEOFsyh4n2hESsrPZjESRMfhJFE";
+  const TELEGRAM_ID = "460235397";
 
-  const telegramToken = process.env.TELEGRAM_TOKEN;
-  const telegramId = process.env.TELEGRAM_ID;
-
-  if (!telegramToken || !telegramId) {
+  if (!TELEGRAM_TOKEN || !TELEGRAM_ID) {
     json(response, 500, { ok: false, error: "Telegram is not configured" });
     return;
   }
@@ -47,14 +46,14 @@ module.exports = async function handler(request, response) {
     .join("\n");
 
   const telegramResponse = await fetch(
-    `https://api.telegram.org/bot${telegramToken}/sendMessage`,
+    `https://api.telegram.org/bot${TELEGRAM_TOKEN}/sendMessage`,
     {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        chat_id: telegramId,
+        chat_id: TELEGRAM_ID,
         text,
         parse_mode: "MarkdownV2",
       }),
