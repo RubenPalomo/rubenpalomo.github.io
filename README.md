@@ -72,21 +72,6 @@ Esta solución es compatible con GitHub Pages y no requiere credenciales. Su fun
 
 Si en el futuro se conecta un servicio de formularios, conviene revisar su política de privacidad, protección antispam y tratamiento de datos antes de incorporarlo.
 
-## Newsletter y Telegram
-
-La sección de newsletter envía los datos a `POST /api/newsletter`. Ese endpoint notifica la suscripción por Telegram usando las variables de entorno `TELEGRAM_TOKEN` y `TELEGRAM_ID`.
-
-No se deben escribir esas credenciales en `index.html`, `js/main.js` ni en ningún archivo público: el token permitiría enviar mensajes al bot desde el navegador de cualquier visitante.
-
-Para que funcione en producción, despliega el sitio en un entorno que ejecute funciones serverless compatibles con `api/newsletter.js` y configura allí:
-
-```text
-TELEGRAM_TOKEN=...
-TELEGRAM_ID=...
-```
-
-GitHub Pages sirve HTML, CSS y JavaScript estático, pero no ejecuta endpoints `/api`. Si la web se publica solo con GitHub Pages, el formulario mostrará un mensaje de error y habrá que apuntar al usuario manualmente.
-
 ## SEO y accesibilidad
 
 La página incluye:

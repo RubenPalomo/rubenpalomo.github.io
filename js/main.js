@@ -122,66 +122,6 @@
     window.location.href = `mailto:ruben.palomof@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
   });
 
-  const newsletterForm = document.querySelector("#newsletter-form");
-  const newsletterStatus = newsletterForm?.querySelector(".form-status");
-  const newsletterEndpoint = window.NEWSLETTER_ENDPOINT || "/api/newsletter";
-
-  const setNewsletterStatus = (message, type = "success") => {
-    if (!newsletterStatus) return;
-
-    newsletterStatus.textContent = message;
-    newsletterStatus.dataset.status = type;
-  };
-
-  newsletterForm?.addEventListener("submit", async (event) => {
-    event.preventDefault();
-
-    if (!newsletterForm.checkValidity()) {
-      newsletterForm.reportValidity();
-      return;
-    }
-
-    const submitButton = newsletterForm.querySelector('button[type="submit"]');
-    const formData = new FormData(newsletterForm);
-    const payload = {
-      name: String(formData.get("name") || "").trim(),
-      email: String(formData.get("email") || "").trim(),
-      company: String(formData.get("company") || "").trim(),
-      consent: formData.get("consent") === "on",
-      source: window.location.href,
-    };
-
-    submitButton?.setAttribute("disabled", "true");
-    setNewsletterStatus("Enviando suscripción...", "pending");
-
-    try {
-      const response = await fetch(newsletterEndpoint, {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(payload),
-      });
-
-      if (!response.ok) {
-        throw new Error("Newsletter request failed");
-      }
-
-      newsletterForm.reset();
-      setNewsletterStatus(
-        "Suscripción enviada. Gracias por apuntarte.",
-        "success",
-      );
-    } catch (error) {
-      setNewsletterStatus(
-        "No se ha podido enviar ahora mismo. Escríbeme a ruben.palomof@gmail.com y te apunto manualmente.",
-        "error",
-      );
-    } finally {
-      submitButton?.removeAttribute("disabled");
-    }
-  });
-
   document.querySelectorAll("[data-year]").forEach((element) => {
     element.textContent = String(new Date().getFullYear());
   });

@@ -376,12 +376,6 @@ h3 {
   transform: translateY(-2px);
 }
 
-.button:disabled {
-  cursor: not-allowed;
-  opacity: 0.62;
-  transform: none;
-}
-
 .button-primary {
   background: var(--coral);
   color: #1d1713;
@@ -1026,79 +1020,6 @@ h3 {
   line-height: 1.45;
 }
 
-.newsletter-section {
-  background: var(--paper-deep);
-}
-
-.newsletter-grid {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(24rem, 0.92fr);
-  align-items: center;
-  gap: clamp(3rem, 8vw, 7rem);
-}
-
-.newsletter-copy h2 {
-  max-width: 13ch;
-  margin-bottom: 1.6rem;
-}
-
-.newsletter-copy > p:not(.eyebrow) {
-  max-width: 42rem;
-  color: var(--ink-soft);
-  font-size: clamp(1.04rem, 1.4vw, 1.18rem);
-}
-
-.newsletter-points {
-  display: grid;
-  gap: 0.8rem;
-  max-width: 38rem;
-  margin: 2rem 0 0;
-  list-style: none;
-}
-
-.newsletter-points li {
-  position: relative;
-  padding-left: 1.55rem;
-  color: var(--ink-soft);
-  font-size: 0.94rem;
-}
-
-.newsletter-points li::before {
-  position: absolute;
-  top: 0.7em;
-  left: 0;
-  width: 0.55rem;
-  height: 0.55rem;
-  border-radius: 50%;
-  background: var(--coral);
-  content: "";
-}
-
-.newsletter-form {
-  padding: clamp(1.6rem, 4vw, 2.8rem);
-  border: 1px solid rgba(255, 255, 255, 0.6);
-  border-radius: var(--radius-lg);
-  background: rgba(255, 255, 255, 0.78);
-  box-shadow: var(--shadow);
-}
-
-.consent-field {
-  display: grid;
-  grid-template-columns: auto 1fr;
-  gap: 0.7rem;
-  margin-top: 1.25rem;
-  color: var(--ink-soft);
-  font-size: 0.78rem;
-  line-height: 1.45;
-}
-
-.consent-field input {
-  width: 1rem;
-  height: 1rem;
-  margin-top: 0.2rem;
-  accent-color: var(--forest);
-}
-
 .contact-section {
   background: var(--mint-light);
 }
@@ -1270,14 +1191,6 @@ h3 {
   margin-top: 0.7rem;
   color: var(--forest);
   font-weight: 700;
-}
-
-.form-status[data-status="pending"] {
-  color: var(--ink-soft);
-}
-
-.form-status[data-status="error"] {
-  color: var(--coral-dark);
 }
 
 .site-footer {
@@ -1489,10 +1402,6 @@ h3 {
 
   .portrait {
     max-width: 30rem;
-  }
-
-  .newsletter-grid {
-    grid-template-columns: 1fr;
   }
 
   .about-values,
